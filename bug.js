@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable or property before it has been initialized.  This often happens in asynchronous operations, such as fetching data from an API or using timers.  Before the asynchronous operation completes, the component attempts to render using the initial state (often null or undefined), which then leads to the error.
